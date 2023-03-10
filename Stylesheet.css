@@ -1,6 +1,8 @@
-
+/* Das ist die Main.html Seite */
 h1 { border: 5px groove rgba(255, 0, 0, 0.985); padding: 15px; font-variant: small-caps; font-weight: bold; font-style: italic; letter-spacing: 2px; }
 body {background: rgb(16, 195, 192);}
 h2 { font-variant: small-caps; font-weight: bold; font-family: 'Gill Sans'; font-style: italic; letter-spacing: 2px; }
 
 #bild { height: 500px; width: 500px; }
+
+/* Das ist die Test.html Seite */
