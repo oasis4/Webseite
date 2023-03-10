@@ -6,4 +6,4 @@ h2 { font-variant: small-caps; font-weight: bold; font-family: 'Gill Sans'; font
 #bild { height: 500px; width: 500px; }
 
 /* Das ist die Test.html Seite */
-body {background-image: url("Hintergrund.jpeg")}
+body {background-image: url("Hintergrund.jpeg"); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;}
