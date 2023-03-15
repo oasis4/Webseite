@@ -1,5 +1,5 @@
 /* Das ist die Main.html Seite */
-h1 { border: 5px groove rgba(255, 0, 0, 0.985); padding: 15px; font-variant: small-caps; font-weight: bold; font-style: italic; letter-spacing: 2px; }
+h1 { border: 3px groove rgba(255, 0, 0, 0.985); color:rgb(32, 136, 227) ; padding: 40px; font-variant: small-caps; font-weight: bold; font-style: italic; letter-spacing: 2px; -webkit-text-stroke: 2px black; }
 body {background: rgb(16, 195, 192);}
 h2 { font-variant: small-caps; font-weight: bold; font-family: 'Gill Sans'; font-style: italic; letter-spacing: 2px; }
 
