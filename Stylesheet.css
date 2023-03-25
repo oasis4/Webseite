@@ -1,12 +1,17 @@
 /* Das ist die Main.html Seite */
-h1 { border: 3px groove rgba(174, 0, 255, 0.985); color:rgb(32, 136, 227) ; padding: 40px; font-family: Rockwell; font-size: 5em }
+h1 { border: 3px groove rgba(174, 0, 255, 0.985); color:rgb(32, 136, 227) ; padding: 40px; font-family: Rockwell; font-size: 5em
+ }
 h2 { font-variant: small-caps; font-weight: bold; font-family: 'Rockwell'; letter-spacing: 2px; color:rgb(32, 136, 227)}
+h4 { font-variant: small-caps; font-weight: bold; font-family: 'Rockwell'; letter-spacing: 2px; color:rgb(255, 255, 255)}
+h5 { font-variant: small-caps; font-weight: bold; font-family: 'Rockwell'; letter-spacing: 2px; color:rgb(255, 46, 46)}
 body {
 background-image: url("rose-petals.png");
 background-attachment: fixed;
 background-size: cover;
 background-repeat: no-repeat;
 }
+
+
 
 
 #hintergrundbild { height: auto; width: auto; }
