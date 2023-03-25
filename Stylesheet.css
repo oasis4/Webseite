@@ -11,7 +11,23 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
+/* Antimation */
+.container {
+ display: flex;
+}
+.card {
+  border-radius: 20px;
+  margin-left: 10px;
+  height: 50px;
+  flex: 1;
+  background-color: rgb(60, 61, 61);
+  transition: .3s all ease;
+}
 
+.card:hover {
+  flex: 2;
+  background-color: rgb(151, 152, 152);
+}
 
 
 #hintergrundbild { height: auto; width: auto; }
