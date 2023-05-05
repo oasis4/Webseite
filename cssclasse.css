@@ -1,0 +1,7 @@
+h1{border: 2px dotted white; padding: 15px; font-variant: small-caps; font-weight: bold; font-style: bold; color: blue; letter-spacing: 1px;}
+
+body {background-image: url('http://www.franz-sales-verlag.de/fsvwiki/uploads/Lexikon/Meer.jpg'); background-repeat: no-repeat;background-size: cover;}
+body{margin:30px 10px;font-size:24pt;}
+
+*.red{font: italic bold 15pt/25pt calibri, sans-serif; color: red;}
+*.white{color: white;}
