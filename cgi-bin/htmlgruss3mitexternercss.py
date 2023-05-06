@@ -54,14 +54,10 @@ class Formular_einlesen:
                     self.anrede = "Frau"
                if self.geschlecht == "maennlich":
                     self.anrede = "Herr"
-          if "Vorname" in form:
-             self.vorname = form["Vorname"].value
           if "Name" in form:
              self.name=form["Name"].value
           if "Mail" in form:
              self.mail=form["Mail"].value
-          if "Mailw" in form:
-             self.mailw=form["Mailw"].value
           if  (self.geschlecht=="" or self.vorname=="" or self.name=="" or self.mail=="" or self.mailw==""):
                self.fehler()
           elif self.mail != self.mailw:
@@ -77,7 +73,7 @@ class Formular_einlesen:
                  </head>\
                  <body>\
                  <h1>Vielen Dank für Ihre Daten!</h1>\
-                 <div class="white">Herzlich willkommen, '+self.anrede+' '+self.vorname+' '+self.name+'! Ihre E-Mail-Adresse ist: '+self.mail+' </div>\
+                 <div class="white">Herzlich willkommen, '+self.anrede+' '+self.name+'! Ihre E-Mail-Adresse ist: '+self.mail+' </div>\
                   </body>\
                   </html>')
 
