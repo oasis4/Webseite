@@ -14,14 +14,14 @@ class Formular_einlesen:
           print()
           print ('<?xml version="1.0" ?>\
              <!DOCTYPE html>\
-            <link rel="stylesheet" type="text/css" href="../cssclasse.css"/>\
+            <link rel="stylesheet" type="text/css" href="../Stylesheet.css"/>\
             <head>\
             <meta http-equiv="Content-type" content="text/html; CHARSET=iso-8859-1"/>\
              <title> Fehlermeldung </title>\
               </head>\
               <body>\
               <h1>Fehler!</h1>\
-              <p class="white">Bitte die Felder Geschlecht, Vorname, Nachname und E-Mail ausfüllen!</p>\
+              <h2 class="white">Bitte die Felder Geschlecht, Vorname, Nachname und E-Mail ausfüllen!</h2>\
               <p>\
               <input type="submit" value="Zurück" onclick = "history.back()" />\
               </p>\
@@ -33,13 +33,13 @@ class Formular_einlesen:
              print()
              print ('<?xml version="1.0" ?>\
                <!DOCTYPE html>\
-               <link rel="stylesheet" type="text/css" href="../cssclasse.css"/>\
+               <link rel="stylesheet" type="text/css" href="../Stylesheet.css"/>\
                <head>\
                 <title> Fehlermeldung </title>\
                 </head>\
                 <body>\
                 <h1>Fehler!</h1>\
-                <p class="white">Die E-Mail-Adressen stimmen nicht überein!</p>\
+                <h2 class="white">Die E-Mail-Adressen stimmen nicht überein!</h2>\
                 <p>\
                 <input type="submit" value="Zur&uuml;ck" onclick = "history.back()" />\
                 </p>\

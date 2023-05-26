@@ -4,6 +4,7 @@ h1 { border: 3px groove rgba(174, 0, 255, 0.985); color:rgb(32, 136, 227) ; padd
 h2 { font-variant: small-caps; font-weight: bold; font-family: 'Rockwell'; letter-spacing: 2px; color:rgb(32, 136, 227)}
 h4 { font-variant: small-caps; font-weight: bold; font-family: 'Rockwell'; letter-spacing: 2px; color:rgb(255, 255, 255)}
 h5 { font-variant: small-caps; font-weight: bold; font-family: 'Rockwell'; letter-spacing: 2px; color:rgb(255, 46, 46)}
+p { font-family: 'Rockwell'; font-size: 1.5em; color:rgb(219, 37, 37)}
 body {
 background-image: url("rose-petals.png");
 background-attachment: fixed;
