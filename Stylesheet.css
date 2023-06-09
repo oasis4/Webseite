@@ -18,12 +18,13 @@ background-repeat: no-repeat;
 }
 .card {
   border-radius: 40px;
-  margin-left: 200px;
-  margin-right: 200px;
-  height: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 300px;
   flex: 1;
   background-color: rgb(60, 61, 61);
   transition: .3s all ease;
+  padding: 20px;
 }
 
 .card:hover {

@@ -8,6 +8,7 @@
     <nav class="menu">
         <ul>
           <li><a href="Main.html">Main</a></li>
+          <li><a href="Quiz.html">Quiz</a></li>
           <li><a href="TEST.html">MEME</a></li>
         </ul>
       </nav>
@@ -17,37 +18,41 @@
       <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-        
-        <h4>Name</h4>
-        <input type="text" name="Name" placeholder="Name">
-        <h4>Passwort</h4>
-        <input type="password" name="Passwort" placeholder="Passwort">
-        <h4>Email</h4>
-        <input type="email" name="Mail" placeholder="Mail">
-        <h4>Geschlecht</h4>
-        <input type="checkbox" name="Geschlecht" value="meannlich">männlich
-        <input type="checkbox" name="Geschlecht" value="weiblich">weiblich
-        <h4>Geburtsdatum</h4>
-        <input type="date" name="Geburtsdatum" placeholder="Geburtsdatum" min="2000-01-01" max="2020-01-01">
-        <h5>*Optional</h5>
-        <h4>Foto</h4>
-        <input type="file" name="foto" accept="image/*">
-    
-    <p>
-        <input type="submit" value="Absenden" />
-        <input type="reset" value="Zur�cksetzen" />
-    </p>
-    </div>
+    <tr>
+        <td>
+            <div class="container">
+                <div class="card">
+                
+                <h4>Name</h4>
+                <input type="text" name="Name" placeholder="Name">
+                <h4>Passwort</h4>
+                <input type="password" name="Passwort" placeholder="Passwort">
+                <h4>Email</h4>
+                <input type="email" name="Mail" placeholder="Mail">
+                <h4>Geschlecht</h4>
+                <input type="checkbox" name="Geschlecht" value="meannlich">männlich
+                <input type="checkbox" name="Geschlecht" value="weiblich">weiblich
+                <h4>Geburtsdatum</h4>
+                <input type="date" name="Geburtsdatum" placeholder="Geburtsdatum" min="2000-01-01" max="2020-01-01">
+                <h5>*Optional</h5>
+                <h4>Foto</h4>
+                <input type="file" name="foto" accept="image/*">
+            
+            <p>
+                <input type="submit" value="Absenden" />
+                <input type="reset" value="Zur�cksetzen" />
+            </p>
+            </div>
+
+        </td>
+</tr>
 
 </body>
 <footer>
-    <body>
-        <div id="pos" style="width:400px; height:400px;">
+
+        <div class="card" id="pos" style="width:400px; height:300px;">
             Deine Position wird ermittelt...
         </div>
-        
         <script>
             function initialize(coords) {
                 var latlng = new google.maps.LatLng(coords.latitude, coords.longitude);
@@ -71,7 +76,6 @@
                 document.getElementById('pos').innerHTML = 'Deine Position konnte leider nicht ermittelt werden';
             });
         </script>
-    </body>
 </footer>
 </form>
 </html>
