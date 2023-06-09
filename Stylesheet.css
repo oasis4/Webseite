@@ -18,8 +18,8 @@ background-repeat: no-repeat;
 }
 .card {
   border-radius: 40px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
   height: 300px;
   flex: 1;
   background-color: rgb(60, 61, 61);
