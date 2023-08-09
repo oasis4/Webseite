@@ -1,9 +1,9 @@
 /* Das ist die Main.html Seite */
 h1 {font-family: Rockwell}
-h2 { font-variant: small-caps; font-weight: bold; font-family: 'Rockwell'; letter-spacing: 2px; color:rgb(32, 136, 227)}
-h4 { font-variant: small-caps; font-weight: bold; font-family: 'Rockwell'; letter-spacing: 2px; color:rgb(255, 255, 255)}
-h5 { font-variant: small-caps; font-weight: bold; font-family: 'Rockwell'; letter-spacing: 2px; color:rgb(255, 46, 46)}
-p { font-family: 'Rockwell'; font-size: 1.5em; color:rgb(219, 37, 37)}
+h2 { font-variant: small-caps; font-weight: bold; font-family:'Open Sans Condensed', sans-serif; letter-spacing: 2px; color:rgb(32, 136, 227)}
+h4 { font-variant: small-caps; font-weight: bold; font-family:'Open Sans Condensed', sans-serif; letter-spacing: 2px; color:rgb(255, 255, 255)}
+h5 { font-variant: small-caps; font-weight: bold; font-family:'Open Sans Condensed', sans-serif; letter-spacing: 2px; color:rgb(255, 46, 46)}
+p { font-family: 'Open Sans Condensed', sans-serif; font-size: 1.5em; color:rgb(219, 37, 37)}
 body {
 background-image: url("rose-petals.png");
 background-attachment: fixed;
@@ -11,30 +11,75 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
-/* Antimation */
-.container {
- display: flex;
-}
-.card {
-  border-radius: 40px;
-  margin-left: 50px;
-  margin-right: 50px;
-  height: 300px;
-  flex: 1;
-  background-color: rgb(60, 61, 61);
-  transition: .3s all ease;
-  padding: 20px;
+
+/* Login */
+
+.loginschrift {
+  margin: 20px auto;
+  font-size: 2em;
+  justify-content: center;
+  padding: 0px 0 0 70px;
 }
 
-.card:hover {
-  flex: 1;
-  background-color: rgb(127, 9, 223);
+.container {
+ display: flex;
+ width: 350px;
+ height: 400px;
+ padding-left: 450px;
 }
+.card {
+  flex: 1;
+  background-color: rgb(39, 34, 79);
+  box-shadow: 5px 20px 50px #2a0032;
+  border-radius: 40px;
+  padding-left: 15%;
+  padding-top: 10%;
+  padding-right: 15%;
+}
+
+input{
+	width: 60%;
+	height: 15px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+.buttonlogin {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #573b8a;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+  }
+.buttonlogin:hover {
+    background: #4e3a7c;
+  }
+
+
 
 /* LoginHover */
 .LoginHover {
 display: flex;
 }
+
+
+
 
 .LoginHover:hover {
   flex: 1;
@@ -78,10 +123,10 @@ ul {
   border-right: 1px solid #fff;
   border-bottom: 1px solid #fff;
   border-top: 1px solid #fff;
-  background-color: rgb(60, 61, 61);
+  background-color: #573b8a;
 }
 
-.menu a, a1{
+.menu a{
   font-size: 22px;
   text-transform: uppercase;
   text-decoration: none;
