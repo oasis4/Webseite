@@ -1,6 +1,5 @@
 /* Das ist die Main.html Seite */
-h1 { border: 3px groove rgba(174, 0, 255, 0.985); color:rgb(32, 136, 227) ; padding: 40px; font-family: Rockwell; font-size: 5em
- }
+h1 {font-family: Rockwell}
 h2 { font-variant: small-caps; font-weight: bold; font-family: 'Rockwell'; letter-spacing: 2px; color:rgb(32, 136, 227)}
 h4 { font-variant: small-caps; font-weight: bold; font-family: 'Rockwell'; letter-spacing: 2px; color:rgb(255, 255, 255)}
 h5 { font-variant: small-caps; font-weight: bold; font-family: 'Rockwell'; letter-spacing: 2px; color:rgb(255, 46, 46)}
@@ -32,6 +31,17 @@ background-repeat: no-repeat;
   background-color: rgb(127, 9, 223);
 }
 
+/* LoginHover */
+.LoginHover {
+display: flex;
+}
+
+.LoginHover:hover {
+  flex: 1;
+  transition: 500ms;
+  transform: scale(1.2);; 
+}
+
 
 #hintergrundbild { height: auto; width: auto; }
 
@@ -47,7 +57,7 @@ ul {
   padding: 0;
 }
 .menu{
-  padding: 80px 20px;
+  padding: 50px 0px 50px 900px;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 .menu ul{
@@ -60,7 +70,18 @@ ul {
   display: inline-block;
   margin: 0 15px;
 }
-.menu a{
+.menu li2{
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0 15px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  background-color: rgb(60, 61, 61);
+}
+
+.menu a, a1{
   font-size: 22px;
   text-transform: uppercase;
   text-decoration: none;
