@@ -78,9 +78,6 @@ input{
 display: flex;
 }
 
-
-
-
 .LoginHover:hover {
   flex: 1;
   transition: 500ms;
@@ -151,8 +148,13 @@ ul {
   transform: scale3d(1,1,1);
 }
 
+/* Error */
 
-
-/* Das ist die Test.html Seite */
-/* body {background-image: url("Hintergrund.jpeg"); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;}
-
+.fehlermeldung {
+  margin: 20px auto;
+  font-size: 2em;
+  justify-content: center;
+  padding: 0 0 0 20%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #fff;
+}
