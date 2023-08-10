@@ -2,7 +2,7 @@
 
 
 import cgi
-import mysql
+
 class Formular_einlesen:
      def __init__ (self):
           self.passwort=""
@@ -66,8 +66,7 @@ class Formular_einlesen:
 
 #mysql
 
-from mysql.connector import errorcode
-print(errorcode.ER_ACCESS_DENIED_ERROR)
+
               
 objekt=Formular_einlesen()
 objekt.haupt()
