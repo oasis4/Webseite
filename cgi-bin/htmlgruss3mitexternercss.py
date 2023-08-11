@@ -2,12 +2,36 @@
 
 
 import cgi
+import MySQLdb
+
+db = MySQLdb.connect("localhost","root","","userdaten" )
 
 class Formular_einlesen:
      def __init__ (self):
           self.passwort=""
           self.mail=""
           self.Geburtsdatum=""    
+
+
+     #MySQL
+     def Post(self):
+          cursor = db.cursor()
+          data=cgi.FieldStorage()
+          mail=self.mail
+          passw=self.passwort
+          datum=self.geburtsdatum
+
+          query = f"INSERT INTO daten (email, password, geburtsdatum) VALUES ('{mail}', '{passw}', '{datum}')"
+          cursor.execute(query)
+          db.commit()
+
+          import logging
+
+          logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s',
+                              filename='app.log')
+
+
+
 
      def fehler(self):
           print ('Content-Type: text/html')
@@ -60,11 +84,8 @@ class Formular_einlesen:
                self.fehler()
           else:
               self.anmeldung()
-
-
-
-
-#mysql
+              self.Post()
+          
 
 
               
