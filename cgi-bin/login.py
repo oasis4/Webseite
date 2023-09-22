@@ -20,7 +20,7 @@ class Formular_einlesen:
           data=cgi.FieldStorage()
           self.sqlmail=self.mail
           self.sqlpassw=self.passwort
-          self.sqldatum=self.geburtsdatum
+          self.sqldatum=self.Geburtsdatum
 
           query = f"SELECT * FROM daten (email, password, geburtsdatum) VALUES ('{self.sqlmail}', '{self.sqlpassw}', '{self.sqldatum}')"
           cursor.execute(query)
